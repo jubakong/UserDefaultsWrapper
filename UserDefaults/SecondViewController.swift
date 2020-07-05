@@ -23,5 +23,9 @@ class SecondViewController: UIViewController {
     nameLabel.text = JBDB.shared.user.string(.name)
     occupationLabel.text = JBDB.shared.user.string(.occupation)
     hobbyLabel.text = JBDB.shared.user.string(.hobby)
+    
+    JBDB.shared.user.remove(.name)
+    JBDB.shared.user.remove(.occupation)
+    JBDB.shared.user.remove(.hobby)
   }
 }

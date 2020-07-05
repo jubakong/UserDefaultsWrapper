@@ -34,6 +34,10 @@ class UserDefaultsWrapper<Keys: KeyProtocol> where Keys.RawValue == String {
   func object(_ key: Keys) -> Any? {
     return UserDefaults.standard.object(forKey: key.rawValue)
   }
+  
+  func remove(_ key: Keys) {
+    return UserDefaults.standard.removeObject(forKey: key.rawValue)
+  }
 }
 
 extension UserDefaultsWrapper {

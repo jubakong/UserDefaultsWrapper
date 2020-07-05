@@ -17,6 +17,7 @@
 		896F0ECC24B1FE500037C80A /* JBDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896F0ECB24B1FE500037C80A /* JBDB.swift */; };
 		896F0ECE24B1FEE40037C80A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896F0ECD24B1FEE40037C80A /* User.swift */; };
 		896F0ED024B1FFF00037C80A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896F0ECF24B1FFF00037C80A /* SecondViewController.swift */; };
+		896F0ED224B205360037C80A /* RemoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896F0ED124B205360037C80A /* RemoveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		896F0ECB24B1FE500037C80A /* JBDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBDB.swift; sourceTree = "<group>"; };
 		896F0ECD24B1FEE40037C80A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		896F0ECF24B1FFF00037C80A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		896F0ED124B205360037C80A /* RemoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				896F0ECD24B1FEE40037C80A /* User.swift */,
 				896F0EBA24B1FD040037C80A /* Main.storyboard */,
 				896F0ECF24B1FFF00037C80A /* SecondViewController.swift */,
+				896F0ED124B205360037C80A /* RemoveViewController.swift */,
 				896F0EC224B1FD050037C80A /* Info.plist */,
 			);
 			path = UserDefaults;
@@ -160,6 +163,7 @@
 			files = (
 				896F0ECC24B1FE500037C80A /* JBDB.swift in Sources */,
 				896F0ECA24B1FDB60037C80A /* UserDefaultsWrapper.swift in Sources */,
+				896F0ED224B205360037C80A /* RemoveViewController.swift in Sources */,
 				896F0ECE24B1FEE40037C80A /* User.swift in Sources */,
 				896F0EB924B1FD040037C80A /* ViewController.swift in Sources */,
 				896F0ED024B1FFF00037C80A /* SecondViewController.swift in Sources */,
