@@ -9,5 +9,5 @@
 
 ## How to initialize code
 
-![Uploading 스크린샷 2020-07-05 오후 10.27.59.png…]()
+<img width="580" alt="스크린샷 2020-07-05 오후 10 27 59" src="https://user-images.githubusercontent.com/52398126/86533959-dbb97300-bf0f-11ea-8516-68718c9c7005.png">
 
