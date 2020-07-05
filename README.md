@@ -9,3 +9,5 @@
 
 ## How to initialize code
 
+![Uploading 스크린샷 2020-07-05 오후 10.27.59.png…]()
+
