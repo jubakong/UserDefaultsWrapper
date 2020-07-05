@@ -9,10 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    setModelInfo()
+  }
+  
+  private func setModelInfo() {
     JBDB.shared.user.set("JB", .name)
     JBDB.shared.user.set("iOS Developer", .occupation)
     JBDB.shared.user.set("Working out", .hobby)

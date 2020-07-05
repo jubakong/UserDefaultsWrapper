@@ -67,13 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				896F0EC824B1FD140037C80A /* Supporting Files */,
-				896F0EB824B1FD040037C80A /* ViewController.swift */,
-				896F0EC924B1FDB60037C80A /* UserDefaultsWrapper.swift */,
-				896F0ECB24B1FE500037C80A /* JBDB.swift */,
-				896F0ECD24B1FEE40037C80A /* User.swift */,
+				896F0ED324B2072F0037C80A /* ViewControllers */,
+				896F0ED424B207520037C80A /* DB */,
+				896F0ED524B2075A0037C80A /* Model */,
 				896F0EBA24B1FD040037C80A /* Main.storyboard */,
-				896F0ECF24B1FFF00037C80A /* SecondViewController.swift */,
-				896F0ED124B205360037C80A /* RemoveViewController.swift */,
 				896F0EC224B1FD050037C80A /* Info.plist */,
 			);
 			path = UserDefaults;
@@ -88,6 +85,33 @@
 				896F0EBF24B1FD050037C80A /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		896F0ED324B2072F0037C80A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				896F0EB824B1FD040037C80A /* ViewController.swift */,
+				896F0ECF24B1FFF00037C80A /* SecondViewController.swift */,
+				896F0ED124B205360037C80A /* RemoveViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		896F0ED424B207520037C80A /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				896F0EC924B1FDB60037C80A /* UserDefaultsWrapper.swift */,
+				896F0ECB24B1FE500037C80A /* JBDB.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		896F0ED524B2075A0037C80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				896F0ECD24B1FEE40037C80A /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -31,7 +31,7 @@ class RemoveViewController: UIViewController {
     if let occupation = JBDB.shared.user.string(.occupation) {
       removeOccupationLabel.text = occupation
     } else {
-      removeOccupationLabel.text = "occupation has been removed from local DB"
+      removeOccupationLabel.text = "Occupation has been removed from local DB"
     }
     
     if let hobby = JBDB.shared.user.string(.hobby) {
