@@ -6,4 +6,8 @@
 //  Copyright © 2020 Jeongbae Kong. All rights reserved.
 //
 
-import Foundation
+struct User {
+  var name: String?
+  var occupation: String?
+  var hobby: String?
+}

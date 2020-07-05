@@ -12,9 +12,10 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    
+    JBDB.shared.user.set("JB", .name)
+    JBDB.shared.user.set("iOS Developer", .occupation)
+    JBDB.shared.user.set("Working out", .hobby)
   }
-
-
 }
 
