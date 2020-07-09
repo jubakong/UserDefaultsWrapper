@@ -14,8 +14,8 @@
 ## How to set
 <img width="572" alt="스크린샷 2020-07-05 오후 10 28 18" src="https://user-images.githubusercontent.com/52398126/86534014-42d72780-bf10-11ea-9a1b-d0cde96c3ff4.png">
 
-### AND add below line of code in your method
+### AND add below lines of code in your method
 <img width="501" alt="스크린샷 2020-07-05 오후 10 28 30" src="https://user-images.githubusercontent.com/52398126/86534028-4cf92600-bf10-11ea-81ad-a2e2e1f5c8df.png">
 
-## How to Remove
+## How to Remove from UserDefaults DB
 <img width="404" alt="스크린샷 2020-07-05 오후 10 28 40" src="https://user-images.githubusercontent.com/52398126/86534035-57b3bb00-bf10-11ea-8d2e-128c755fb442.png">
