@@ -14,8 +14,7 @@ class SecondViewController: UIViewController {
   @IBOutlet weak var occupationLabel: UILabel!
   @IBOutlet weak var hobbyLabel: UILabel!
   
-  override func viewDidLoad() {
-    super.viewDidLoad()
+  override func viewWillAppear(_ animated: Bool) {
     setModel()
   }
   

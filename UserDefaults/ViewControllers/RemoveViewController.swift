@@ -8,15 +8,13 @@
 
 import UIKit
 
-
-
 class RemoveViewController: UIViewController {
   @IBOutlet weak var removeNameLabel: UILabel!
   @IBOutlet weak var removeOccupationLabel: UILabel!
   @IBOutlet weak var removeHobbyLabel: UILabel!
   
-  override func viewDidLoad() {
-    super.viewDidLoad()
+  
+  override func viewWillAppear(_ animated: Bool) {
     setModel()
   }
   
@@ -37,7 +35,7 @@ class RemoveViewController: UIViewController {
     if let hobby = JBDB.shared.user.string(.hobby) {
       removeHobbyLabel.text = hobby
     } else {
-      removeHobbyLabel.text = "hobby has been removed from local DB"
+      removeHobbyLabel.text = "Hobby has been removed from local DB"
     }
   }
 }

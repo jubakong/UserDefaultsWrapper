@@ -16,8 +16,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBC-6h-CYb">
-                                <rect key="frame" x="170.5" y="433" width="73" height="30"/>
-                                <state key="normal" title="CLICK ME!"/>
+                                <rect key="frame" x="106.5" y="433" width="201" height="30"/>
+                                <state key="normal" title="Let's Show saved Information"/>
                                 <connections>
                                     <segue destination="Jl8-pX-Qgz" kind="show" id="bkl-c3-NXG"/>
                                 </connections>
